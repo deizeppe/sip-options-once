@@ -115,9 +115,9 @@ make clean
 ### Saídas
 
 ```
-187.60.60.55 - 200 OK (Call-ID OK)
-187.60.60.55 - TIMEOUT
-187.60.60.55 - unexpected: SIP/2.0 404 Not Found
+177.70.70.55 - 200 OK (Call-ID OK)
+177.70.70.55 - TIMEOUT
+177.70.70.55 - unexpected: SIP/2.0 404 Not Found
 ```
 
 ---
@@ -133,12 +133,12 @@ make clean
 ## Dicas e troubleshooting
 
 - **Verificar IP de origem:**  
-  `ifconfig | grep 45.235.241.75` (macOS)  
-  `ip addr | grep 45.235.241.75` (Linux)
+  `ifconfig | grep 145.135.777.75` (macOS)  
+  `ip addr | grep 145.135.777.75` (Linux)
 
 - **Capturar tráfego:**  
   ```bash
-  sudo tcpdump -n -i any udp and port 5090 or host 187.60.60.55
+  sudo tcpdump -n -i any udp and port 5060 or host 177.70.70.55
   ```
 
 - **Portas privilegiadas:** Use portas >1024.
@@ -164,5 +164,5 @@ MIT License
 ### Exemplo rápido
 
 ```bash
-./sip-options-once   -ips "187.60.60.55"   -src-ip 45.235.241.75   -src-port 5090   -kam-port 5060   -timeout 2
+./sip-options-once   -ips "177.70.70.55"   -src-ip 145.135.777.75   -src-port 5060   -kam-port 5060   -timeout 2
 ```
