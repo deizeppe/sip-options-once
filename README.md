@@ -97,7 +97,7 @@ make clean
 ### Exemplo
 
 ```bash
-./sip-options-once   -ips "187.60.60.55"   -src-ip 45.235.241.75   -src-port 5090   -kam-port 5060   -timeout 2
+./sip-options-once   -ips "177.70.70.55"   -src-ip 145.135.777.75   -src-port 5060   -kam-port 5060   -timeout 2
 ```
 
 ### Parâmetros
