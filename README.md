@@ -155,14 +155,20 @@ make clean
 
 ---
 
-## Licença
-
-MIT License
-
----
-
 ### Exemplo rápido
 
 ```bash
 ./sip-options-once   -ips "177.70.70.55"   -src-ip 145.135.777.75   -src-port 5060   -kam-port 5060   -timeout 2
 ```
+
+
+## 📝 Licença
+
+MIT License.
+
+---
+
+## 👨‍💻 Autor
+
+Ricardo Deizeppe — Engenharia VoIP  
+Baseado no dialer original em Perl, reimplementado em **Python + FastAPI**.
